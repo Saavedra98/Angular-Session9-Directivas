@@ -7,6 +7,19 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  mostrar = true;
+  element = false;
+
+  valor !: any;
+
+
+  mostrar() {
+    this.valor = document.getElementById('activo');
+
+    this.element = this.valor.checked;
+
+
+  }
+
+
 
 }
