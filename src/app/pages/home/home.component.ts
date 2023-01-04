@@ -17,7 +17,6 @@ export class HomeComponent {
 
     this.element = this.valor.checked;
 
-
   }
 
 
